@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+valor="0";
+
+mostraValor(){
+
+  this.valor=this.valor+"7"
+}
   constructor() {}
 
 }
